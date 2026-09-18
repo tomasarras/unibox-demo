@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Unibox — Demo de bandeja de entrada unificada",
+  title: "Unibox — Demo de bandeja de entrada para atención al cliente",
   description:
-    "Proyecto de portfolio: bandeja de entrada ficticia que unifica varios canales de mensajería, sin backend ni datos reales.",
+    "Proyecto de portfolio: bandeja de entrada ficticia para un equipo de atención al cliente que unifica varios canales de mensajería, sin backend ni datos reales.",
 };
 
 export default function RootLayout({ children }) {

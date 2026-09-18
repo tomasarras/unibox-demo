@@ -31,7 +31,7 @@ export default function ChannelRail({ selected, onSelect, unreadChannelIds }) {
             title={t(`channel_${channel.id}`)}
             className="relative flex h-11 w-11 items-center justify-center rounded-xl transition"
             style={{
-              background: active ? channel.color : "transparent",
+              background: active ? channel.bg : "transparent",
               color: active ? "#fff" : "#94a3b8",
             }}
           >

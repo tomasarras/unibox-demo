@@ -22,7 +22,7 @@ export default function ConversationListItem({ entry, active }) {
         <Avatar name={contact.name} color={contact.color} size={44} />
         <span
           className="absolute -bottom-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full ring-2 ring-white"
-          style={{ background: channel.color }}
+          style={{ background: channel.bg }}
         >
           <ChannelIcon iconKey={channel.iconKey} size={11} className="text-white" />
         </span>

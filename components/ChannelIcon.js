@@ -1,10 +1,11 @@
-import { Camera, Mail, MessageCircle, Send } from "lucide-react";
+import { Camera, Mail, MessageCircle, Phone, Zap } from "lucide-react";
 
 const ICONS = {
   camera: Camera,
-  message: MessageCircle,
-  send: Send,
+  phone: Phone,
+  zap: Zap,
   mail: Mail,
+  message: MessageCircle,
 };
 
 export default function ChannelIcon({ iconKey, size = 16, className = "" }) {

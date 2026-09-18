@@ -80,7 +80,7 @@ export default function ThreadPage() {
           <Avatar name={contact.name} color={contact.color} size={38} />
           <span
             className="absolute -bottom-1 -right-1 flex h-4 w-4 items-center justify-center rounded-full ring-2 ring-white"
-            style={{ background: channel.color }}
+            style={{ background: channel.bg }}
           >
             <ChannelIcon iconKey={channel.iconKey} size={9} className="text-white" />
           </span>
