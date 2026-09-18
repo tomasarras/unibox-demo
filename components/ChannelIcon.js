@@ -1,9 +1,8 @@
-import { Camera, Mail, MessageCircle, Phone, Zap } from "lucide-react";
+import { Camera, Mail, MessageCircle, Phone } from "lucide-react";
 
 const ICONS = {
   camera: Camera,
   phone: Phone,
-  zap: Zap,
   mail: Mail,
   message: MessageCircle,
 };
